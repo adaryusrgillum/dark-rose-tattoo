@@ -41,7 +41,7 @@
 }
 
 .landing-title {
-  font-family: 'Cinzel Decorative', serif;
+  font-family: 'Cinzel Decorative', Georgia, 'Times New Roman', serif;
   font-size: clamp(1.8rem, 5vw, 3rem);
   font-weight: 700;
   color: transparent;
@@ -61,7 +61,7 @@
 }
 
 .landing-subtitle {
-  font-family: 'Cinzel Decorative', serif;
+  font-family: 'Cinzel Decorative', Georgia, 'Times New Roman', serif;
   font-size: clamp(1.1rem, 2.5vw, 1.6rem);
   color: #c0c0c0;
   margin-bottom: 10px;
@@ -69,7 +69,7 @@
 }
 
 .landing-tagline {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
   font-size: clamp(1rem, 2vw, 1.3rem);
   font-style: italic;
   color: #a0a0a0;
@@ -97,7 +97,7 @@
 }
 
 .content-block h2 {
-  font-family: 'Cinzel Decorative', serif;
+  font-family: 'Cinzel Decorative', Georgia, 'Times New Roman', serif;
   font-size: clamp(1.3rem, 3vw, 1.8rem);
   color: #c0c0c0;
   margin-bottom: 20px;
@@ -106,7 +106,7 @@
 }
 
 .content-block p {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
   font-size: clamp(1.05rem, 1.8vw, 1.2rem);
   line-height: 1.8;
   color: #d0d0d0;
@@ -161,7 +161,7 @@
 }
 
 .feature-item h3 {
-  font-family: 'Cinzel Decorative', serif;
+  font-family: 'Cinzel Decorative', Georgia, 'Times New Roman', serif;
   font-size: 1.2rem;
   color: #c0c0c0;
   margin-bottom: 15px;
@@ -196,7 +196,7 @@
 }
 
 .closing-statement {
-  font-family: 'Cinzel Decorative', serif;
+  font-family: 'Cinzel Decorative', Georgia, 'Times New Roman', serif;
   font-size: clamp(1.1rem, 2vw, 1.4rem) !important;
   color: #e0e0e0 !important;
   font-style: italic;
@@ -217,7 +217,7 @@
 }
 
 .btn {
-  font-family: 'Cinzel Decorative', serif;
+  font-family: 'Cinzel Decorative', Georgia, 'Times New Roman', serif;
   font-size: 1rem;
   letter-spacing: 0.05em;
   padding: 16px 35px;
