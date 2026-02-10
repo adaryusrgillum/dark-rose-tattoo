@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
+
+.tattoo-care-section {
+  background: linear-gradient(180deg, #0a0a0a 0%, #0f0f0f 50%, #0a0a0a 100%);
+  padding: 60px 20px 100px;
+  position: relative;
+}
+
+.tattoo-care-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(100, 150, 100, 0.4) 50%,
+    transparent 100%
+  );
+}
+
+.tattoo-care-section .section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tattoo-care-section .section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.tattoo-care-section .content-block {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(192, 192, 192, 0.1);
+  border-radius: 8px;
+  padding: 30px;
+  position: relative;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tattoo-care-section .content-block:hover {
+  border-color: rgba(192, 192, 192, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+
+.tattoo-care-section .content-block h3 {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: clamp(1.2rem, 3vw, 1.6rem);
+  color: #c0c0c0;
+  margin-bottom: 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(192, 192, 192, 0.15);
+}
+
+.tattoo-care-section .content-block p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.05rem, 1.8vw, 1.2rem);
+  line-height: 1.8;
+  color: #d0d0d0;
+  margin-bottom: 16px;
+}
+
+.tattoo-care-section .content-block p:last-child {
+  margin-bottom: 0;
+}
+
+.tattoo-care-section .content-block strong {
+  color: #e0e0e0;
+  font-weight: 600;
+}
+
+.tattoo-care-section .intro-block .lead-text {
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
+  color: #e0e0e0;
+  line-height: 1.9;
+}
+
+.tattoo-care-section .highlight-block {
+  background: linear-gradient(
+    135deg,
+    rgba(192, 192, 192, 0.05) 0%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
+  border-color: rgba(192, 192, 192, 0.15);
+}
+
+.tattoo-care-section .warning-block {
+  background: linear-gradient(
+    135deg,
+    rgba(139, 0, 0, 0.1) 0%,
+    rgba(192, 192, 192, 0.03) 100%
+  );
+  border-color: rgba(139, 0, 0, 0.25);
+}
+
+.tattoo-care-section .warning-block h3 {
+  color: #ff6b6b;
+  border-bottom-color: rgba(139, 0, 0, 0.3);
+}
+
+.tattoo-care-section .danger-block {
+  background: linear-gradient(
+    135deg,
+    rgba(139, 0, 0, 0.08) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  border-color: rgba(139, 0, 0, 0.2);
+}
+
+.tattoo-care-section .danger-block h3 {
+  color: #ff4444;
+  border-bottom-color: rgba(139, 0, 0, 0.3);
+}
+
+.avoid-list,
+.warning-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+
+.avoid-list li,
+.warning-list li {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1rem, 1.6vw, 1.15rem);
+  line-height: 1.7;
+  color: #d0d0d0;
+  padding: 12px 0 12px 30px;
+  position: relative;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.avoid-list li:last-child,
+.warning-list li:last-child {
+  border-bottom: none;
+}
+
+.avoid-list li::before {
+  content: '✗';
+  position: absolute;
+  left: 0;
+  color: #ff4444;
+  font-weight: bold;
+}
+
+.warning-list li::before {
+  content: '⚠';
+  position: absolute;
+  left: 0;
+  color: #ffb300;
+  font-weight: bold;
+}
+
+.tattoo-care-section .cta-block {
+  background: linear-gradient(
+    135deg,
+    rgba(100, 150, 100, 0.08) 0%,
+    rgba(192, 192, 192, 0.05) 100%
+  );
+  border-color: rgba(100, 150, 100, 0.2);
+  text-align: center;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.btn {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  padding: 16px 35px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #4a4a4a 0%, #2a2a2a 100%);
+  color: #f5f5f5;
+  border: 1px solid rgba(192, 192, 192, 0.4);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #5a5a5a 0%, #3a3a3a 100%);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #c0c0c0;
+  border: 1px solid rgba(192, 192, 192, 0.5);
+}
+
+.btn-secondary:hover {
+  background: rgba(192, 192, 192, 0.1);
+  border-color: rgba(192, 192, 192, 0.8);
+  color: #f0f0f0;
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .tattoo-care-section {
+    padding: 40px 15px 70px;
+  }
+
+  .tattoo-care-section .content-block {
+    padding: 25px 20px;
+  }
+
+  .avoid-list li,
+  .warning-list li {
+    padding-left: 25px;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 280px;
+    text-align: center;
+  }
+}

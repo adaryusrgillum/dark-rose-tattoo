@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
+
+.page-wrapper {
+  min-height: 100vh;
+}
+
+/* Page Hero */
+.page-hero {
+  background: linear-gradient(
+    135deg,
+    rgba(60, 60, 60, 0.3) 0%,
+    rgba(0, 0, 0, 0.8) 50%,
+    rgba(140, 140, 140, 0.2) 100%
+  );
+  padding: 100px 20px 60px;
+  text-align: center;
+  border-bottom: 1px solid rgba(192, 192, 192, 0.1);
+  position: relative;
+}
+
+.page-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('/Firefly__3d%20and%20clarity%20175685%20jKf%20(3).png') center/contain no-repeat;
+  opacity: 0.05;
+  pointer-events: none;
+}
+
+.page-hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.page-hero h1 {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  font-weight: 700;
+  color: transparent;
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #d8d8d8 20%,
+    #b8b8b8 40%,
+    #e8e8e8 60%,
+    #a8a8a8 80%,
+    #f0f0f0 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-bottom: 10px;
+}
+
+.page-hero p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.2rem, 3vw, 1.6rem);
+  color: #c0c0c0;
+  font-style: italic;
+  letter-spacing: 0.05em;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .page-hero {
+    padding: 80px 20px 40px;
+  }
+}

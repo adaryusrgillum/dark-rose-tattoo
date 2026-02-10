@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
+
+.artists-section {
+  background: linear-gradient(180deg, #0a0a0a 0%, #111 50%, #0a0a0a 100%);
+  padding: 60px 20px 100px;
+  position: relative;
+}
+
+.artists-section .section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.artists-section .section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.artist-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(192, 192, 192, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.artist-card:hover {
+  border-color: rgba(192, 192, 192, 0.25);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.4);
+}
+
+.artist-header {
+  background: linear-gradient(
+    135deg,
+    rgba(60, 60, 60, 0.15) 0%,
+    rgba(192, 192, 192, 0.08) 100%
+  );
+  padding: 25px 30px;
+  border-bottom: 1px solid rgba(192, 192, 192, 0.1);
+}
+
+.artist-header h3 {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  color: #c0c0c0;
+  margin-bottom: 5px;
+}
+
+.artist-role {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-style: italic;
+  color: #a0a0a0;
+  letter-spacing: 0.05em;
+}
+
+.artist-content {
+  padding: 30px;
+}
+
+.artist-content p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.05rem, 1.8vw, 1.2rem);
+  line-height: 1.8;
+  color: #d0d0d0;
+  margin-bottom: 16px;
+}
+
+.artist-content p:last-of-type {
+  margin-bottom: 20px;
+}
+
+.artist-content strong {
+  color: #e0e0e0;
+  font-weight: 600;
+}
+
+.artist-contact {
+  background: rgba(0, 0, 0, 0.2);
+  border-left: 3px solid #c0c0c0;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 0 6px 6px 0;
+}
+
+.artist-contact h4 {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 1.1rem;
+  color: #c0c0c0;
+  margin-bottom: 10px;
+}
+
+.artist-contact p {
+  font-size: 1rem;
+  margin-bottom: 0;
+  color: #c0c0c0;
+}
+
+.content-block {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(192, 192, 192, 0.1);
+  border-radius: 8px;
+  padding: 30px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content-block:hover {
+  border-color: rgba(192, 192, 192, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+
+.collaboration-block {
+  background: linear-gradient(
+    135deg,
+    rgba(192, 192, 192, 0.05) 0%,
+    rgba(60, 60, 60, 0.05) 100%
+  );
+  border-color: rgba(192, 192, 192, 0.15);
+  text-align: center;
+}
+
+.collaboration-block h3 {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: clamp(1.3rem, 3vw, 1.7rem);
+  color: #c0c0c0;
+  margin-bottom: 20px;
+}
+
+.collaboration-block p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.05rem, 1.8vw, 1.2rem);
+  line-height: 1.8;
+  color: #d0d0d0;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.collaboration-block p:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .artists-section {
+    padding: 40px 15px 70px;
+  }
+
+  .artist-header {
+    padding: 20px;
+  }
+
+  .artist-content {
+    padding: 25px 20px;
+  }
+
+  .artist-contact {
+    padding: 15px;
+  }
+
+  .content-block {
+    padding: 25px 20px;
+  }
+}
