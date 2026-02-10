@@ -47,7 +47,7 @@
 }
 
 .tattoo-care-section .content-block h3 {
-  font-family: 'Cinzel Decorative', serif;
+  font-family: 'Cinzel Decorative', Georgia, 'Times New Roman', serif;
   font-size: clamp(1.2rem, 3vw, 1.6rem);
   color: #c0c0c0;
   margin-bottom: 18px;
@@ -56,7 +56,7 @@
 }
 
 .tattoo-care-section .content-block p {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
   font-size: clamp(1.05rem, 1.8vw, 1.2rem);
   line-height: 1.8;
   color: #d0d0d0;
@@ -124,7 +124,7 @@
 
 .avoid-list li,
 .warning-list li {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
   font-size: clamp(1rem, 1.6vw, 1.15rem);
   line-height: 1.7;
   color: #d0d0d0;
@@ -173,7 +173,7 @@
 }
 
 .btn {
-  font-family: 'Cinzel Decorative', serif;
+  font-family: 'Cinzel Decorative', Georgia, 'Times New Roman', serif;
   font-size: 1rem;
   letter-spacing: 0.05em;
   padding: 16px 35px;

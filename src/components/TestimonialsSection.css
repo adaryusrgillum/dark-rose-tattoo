@@ -18,7 +18,7 @@
 }
 
 .section-intro .lead-text {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
   font-size: clamp(1.15rem, 2.2vw, 1.35rem);
   line-height: 1.9;
   color: #e0e0e0;
@@ -46,7 +46,7 @@
 }
 
 .testimonial-category h3 {
-  font-family: 'Cinzel Decorative', serif;
+  font-family: 'Cinzel Decorative', Georgia, 'Times New Roman', serif;
   font-size: clamp(1.2rem, 3vw, 1.5rem);
   color: #c0c0c0;
   margin-bottom: 25px;
@@ -84,7 +84,7 @@
 }
 
 .testimonial-card blockquote {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
   font-size: clamp(1.05rem, 1.8vw, 1.2rem);
   line-height: 1.8;
   color: #d0d0d0;
@@ -107,7 +107,7 @@
 
 .testimonial-card cite {
   display: block;
-  font-family: 'Cinzel Decorative', serif;
+  font-family: 'Cinzel Decorative', Georgia, 'Times New Roman', serif;
   font-size: 0.95rem;
   color: #e0e0e0;
   font-style: normal;
@@ -119,7 +119,7 @@
   font-size: 0.85rem;
   color: #888;
   margin-top: 5px;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
 }
 
 .content-block {
@@ -145,14 +145,14 @@
 }
 
 .cta-block h3 {
-  font-family: 'Cinzel Decorative', serif;
+  font-family: 'Cinzel Decorative', Georgia, 'Times New Roman', serif;
   font-size: clamp(1.3rem, 3vw, 1.8rem);
   color: #c0c0c0;
   margin-bottom: 20px;
 }
 
 .cta-block p {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
   font-size: clamp(1.05rem, 1.8vw, 1.2rem);
   line-height: 1.8;
   color: #d0d0d0;
@@ -160,7 +160,7 @@
 }
 
 .cta-block .closing-statement {
-  font-family: 'Cinzel Decorative', serif;
+  font-family: 'Cinzel Decorative', Georgia, 'Times New Roman', serif;
   font-size: clamp(1.1rem, 2vw, 1.3rem);
   color: #e0e0e0;
   font-style: italic;
@@ -181,7 +181,7 @@
 }
 
 .btn {
-  font-family: 'Cinzel Decorative', serif;
+  font-family: 'Cinzel Decorative', Georgia, 'Times New Roman', serif;
   font-size: 1rem;
   letter-spacing: 0.05em;
   padding: 16px 35px;

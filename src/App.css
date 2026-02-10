@@ -43,7 +43,7 @@
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.2s ease, transform 0.2s ease;
-  font-family: 'Cinzel Decorative', serif;
+  font-family: 'Cinzel Decorative', Georgia, 'Times New Roman', serif;
   font-size: clamp(0.72rem, 1.2vw, 0.95rem);
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -149,7 +149,7 @@
 }
 
 .brand-title {
-  font-family: 'Cinzel Decorative', serif;
+  font-family: 'Cinzel Decorative', Georgia, 'Times New Roman', serif;
   font-size: clamp(0.7rem, 3.3vw, 2.15rem);
   font-weight: 900;
   letter-spacing: clamp(0.01em, 0.5vw, 0.08em);
@@ -263,7 +263,7 @@ video:-webkit-full-screen {
 }
 
 .footer-brand h3 {
-  font-family: 'Cinzel Decorative', serif;
+  font-family: 'Cinzel Decorative', Georgia, 'Times New Roman', serif;
   font-size: 1.3rem;
   color: var(--chrome-primary);
   margin-bottom: 10px;
@@ -272,7 +272,7 @@ video:-webkit-full-screen {
 .footer-brand p,
 .footer-contact p,
 .footer-hours p {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
   font-size: 1.1rem;
   color: #a0a0a0;
   margin-bottom: 5px;
@@ -295,7 +295,7 @@ video:-webkit-full-screen {
 }
 
 .social-link {
-  font-family: 'Cinzel Decorative', serif;
+  font-family: 'Cinzel Decorative', Georgia, 'Times New Roman', serif;
   font-size: 0.85rem;
   color: var(--chrome-primary);
   text-decoration: none;
@@ -320,14 +320,14 @@ video:-webkit-full-screen {
 }
 
 .footer-bottom p {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
   font-size: 1rem;
   color: #666;
   margin-bottom: 5px;
 }
 
 .footer-bottom p:last-child {
-  font-family: 'Cinzel Decorative', serif;
+  font-family: 'Cinzel Decorative', Georgia, 'Times New Roman', serif;
   font-size: 0.9rem;
   color: var(--chrome-primary);
   letter-spacing: 0.1em;
