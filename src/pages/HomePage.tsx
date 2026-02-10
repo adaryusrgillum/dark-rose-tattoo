@@ -8,13 +8,13 @@ const HomePage = () => {
       <section className="hero-section">
         <div className="video-container">
           <video autoPlay loop muted playsInline>
-            <source src="/firefly_gears.mp4" type="video/mp4" />
+            <source src={`${import.meta.env.BASE_URL}firefly_gears.mp4`} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <div className="overlay">
             <img
               className="title-image"
-              src="/Firefly__3d%20and%20clarity%20175685%20jKf%20(5).png"
+              src={`${import.meta.env.BASE_URL}Firefly__3d%20and%20clarity%20175685%20jKf%20(5).png`}
               alt="Dark Rose Tattoo Studio"
             />
           </div>

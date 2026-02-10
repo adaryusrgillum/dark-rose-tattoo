@@ -28,7 +28,7 @@ const Navigation = () => {
       <Link to="/" className="logo-link">
         <img
           className="logo-mark"
-          src="/Firefly__3d%20and%20clarity%20175685%20jKf%20(3).png"
+          src={`${import.meta.env.BASE_URL}Firefly__3d%20and%20clarity%20175685%20jKf%20(3).png`}
           alt="Dark Rose Tattoo Studio logo"
         />
       </Link>
