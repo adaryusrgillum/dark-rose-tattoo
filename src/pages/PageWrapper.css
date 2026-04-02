@@ -36,7 +36,7 @@
 }
 
 .page-hero h1 {
-  font-family: 'Cinzel Decorative', serif;
+  font-family: 'Cinzel Decorative', Georgia, 'Times New Roman', serif;
   font-size: clamp(2rem, 6vw, 3.5rem);
   font-weight: 700;
   color: transparent;
@@ -55,7 +55,7 @@
 }
 
 .page-hero p {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
   font-size: clamp(1.2rem, 3vw, 1.6rem);
   color: #c0c0c0;
   font-style: italic;

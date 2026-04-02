@@ -17,7 +17,7 @@
 }
 
 .section-intro .lead-text {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
   font-size: clamp(1.15rem, 2.2vw, 1.35rem);
   line-height: 1.9;
   color: #e0e0e0;
@@ -25,7 +25,7 @@
 }
 
 .section-intro p {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
   font-size: clamp(1.05rem, 1.8vw, 1.2rem);
   line-height: 1.8;
   color: #d0d0d0;
@@ -46,7 +46,7 @@
 }
 
 .gallery-category h3 {
-  font-family: 'Cinzel Decorative', serif;
+  font-family: 'Cinzel Decorative', Georgia, 'Times New Roman', serif;
   font-size: clamp(1.2rem, 3vw, 1.6rem);
   color: #c0c0c0;
   margin-bottom: 18px;
@@ -56,7 +56,7 @@
 
 .gallery-category p,
 .section-intro p {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
   font-size: clamp(1.05rem, 1.8vw, 1.2rem);
   line-height: 1.8;
   color: #d0d0d0;
@@ -95,7 +95,7 @@
 }
 
 .cta-block h3 {
-  font-family: 'Cinzel Decorative', serif;
+  font-family: 'Cinzel Decorative', Georgia, 'Times New Roman', serif;
   font-size: clamp(1.3rem, 3vw, 1.8rem);
   color: #c0c0c0;
   margin-bottom: 20px;
@@ -110,7 +110,7 @@
 }
 
 .btn {
-  font-family: 'Cinzel Decorative', serif;
+  font-family: 'Cinzel Decorative', Georgia, 'Times New Roman', serif;
   font-size: 1rem;
   letter-spacing: 0.05em;
   padding: 16px 35px;
